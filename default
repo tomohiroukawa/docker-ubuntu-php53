@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+	SetEnv CAKE_ENV development
+	
+	DocumentRoot /var/www/
+	<Directory />
+		Options All
+		AllowOverride All
+	</Directory>
+	
+</VirtualHost>
